@@ -1,4 +1,4 @@
-# ![Do it yourself CS]
+# Do it yourself CS
 
 ## What?
 
