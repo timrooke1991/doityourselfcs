@@ -2,8 +2,11 @@
   <Layout :sidebar="false">
     <div class="content">
       <div class="title-block">
-        <h1 class="primary">{{$static.metadata.siteName}}</h1>
-        <h1>
+        <h1 class>
+          Do it yourself
+          <span class="primary">CS</span>
+        </h1>
+        <h1 class="tagline">
           A structured path for learning
           <span class="primary">computer science</span> in a way that suits you
         </h1>
@@ -68,8 +71,11 @@ div.title-block {
   margin: 1.5em auto 1.5em;
 
   .primary {
-    margin-bottom: 0;
     color: $brandPrimary;
+  }
+
+  .tagline {
+    font-size: 1.8em;
   }
 
   @include respond-above(md) {
