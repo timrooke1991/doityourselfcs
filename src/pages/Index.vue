@@ -13,7 +13,6 @@
         <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon"/>
         <Shortcut link="/theme-configuration#changing-colors" text="Change colors" icon="eye-icon"/>
       </nav>
-      <GitLink class="git" size="large"/>
     </div>
   </Layout>
 </template>
@@ -27,18 +26,16 @@ query {
 </static-query>
 
 <script>
-import GitLink from "~/components/GitLink.vue";
 import Shortcut from "~/components/Shortcut.vue";
 
 export default {
   components: {
-    GitLink,
     Shortcut
   },
   data() {
     return {
       description:
-        "The ultimate static generated documentation theme for the JAM-stack"
+        "A structured path for learning computer science in a way that suits you"
     };
   },
   metaInfo() {
