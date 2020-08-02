@@ -1,11 +1,13 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
-      <h1>
-        <span class="primary">{{$static.metadata.siteName}}</span>
-        <br>
-        {{ this.description }}
-      </h1>
+      <div class="title-block">
+        <h1 class="primary">{{$static.metadata.siteName}}</h1>
+        <h1>
+          A structured path for learning
+          <span class="primary">computer science</span> in a way that suits you
+        </h1>
+      </div>
 
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
@@ -60,12 +62,13 @@ export default {
   flex-direction: column;
 }
 
-h1 {
+div.title-block {
   text-align: center;
   max-width: 600px;
   margin: 1.5em auto 1.5em;
 
   .primary {
+    margin-bottom: 0;
     color: $brandPrimary;
   }
 
