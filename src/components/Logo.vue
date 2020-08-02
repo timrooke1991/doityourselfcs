@@ -2,12 +2,14 @@
   <g-link to="/" class="logo" title="Back to home">
     <transition name="theme">
       <div v-if="color == 'dark'">
-        <g-image src="~/assets/img/logo-bright.svg" alt="logo" />
+        <h1 class="header dark">DO IT YOURSELF</h1>
+        <h1 class="header primary">CS</h1>
       </div>
     </transition>
     <transition name="theme">
       <div v-if="color == 'bright'">
-        <g-image src="~/assets/img/logo-dark.svg" alt="logo" />
+        <h1 class="header bright">DO IT YOURSELF</h1>
+        <h1 class="header primary">CS</h1>
       </div>
     </transition>
   </g-link>
@@ -21,17 +23,34 @@ export default {
       required: true
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
+.header {
+  font-size: 24px;
+  color: $textDark;
+  margin: 0;
+  padding: 0;
+
+  .bright {
+    color: $textBright;
+  }
+
+  .primary {
+    color: $brandPrimary;
+    padding-left: 20px;
+  }
+}
+
 .logo {
   height: 40px;
   display: block;
-  transition: color .15s ease-in-out;
+  transition: color 0.15s ease-in-out;
   color: $textBright;
   position: relative;
   perspective: 200px;
+  width: 200px;
 
   div {
     height: 40px;
@@ -46,8 +65,9 @@ export default {
   }
 }
 
-.theme-enter-active, .theme-leave-active {
-  transition: opacity .15s ease-in-out;
+.theme-enter-active,
+.theme-leave-active {
+  transition: opacity 0.15s ease-in-out;
 }
 .theme-enter, .theme-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
