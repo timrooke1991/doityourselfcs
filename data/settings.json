@@ -4,12 +4,8 @@
       "section": "Introduction",
       "topics": [
         {
-          "title": "DIY: CS",
-          "slug": "diy-cs"
-        },
-        {
-          "title": "Welcome",
-          "slug": "welcome"
+          "title": "Welcome to DIY: CS",
+          "slug": "welcome-to-diy-cs"
         }
       ]
     },
@@ -46,6 +42,87 @@
     },
     {
       "section": "Data Structures",
+      "topics": [
+        {
+          "title": "Coming soon",
+          "slug": "coming-soon"
+        }
+      ]
+    },
+    {
+      "section": "CS Maths",
+      "topics": [
+        {
+          "title": "Coming soon",
+          "slug": "coming-soon"
+        }
+      ]
+    },
+    {
+      "section": "Networking",
+      "topics": [
+        {
+          "title": "Coming soon",
+          "slug": "coming-soon"
+        }
+      ]
+    },
+    {
+      "section": "Cryptography",
+      "topics": [
+        {
+          "title": "Coming soon",
+          "slug": "coming-soon"
+        }
+      ]
+    },
+    {
+      "section": "Security",
+      "topics": [
+        {
+          "title": "Coming soon",
+          "slug": "coming-soon"
+        }
+      ]
+    },
+    {
+      "section": "Cloud Computing",
+      "topics": [
+        {
+          "title": "Coming soon",
+          "slug": "coming-soon"
+        }
+      ]
+    },
+    {
+      "section": "Operating Systems",
+      "topics": [
+        {
+          "title": "Coming soon",
+          "slug": "coming-soon"
+        }
+      ]
+    },
+    {
+      "section": "Databases",
+      "topics": [
+        {
+          "title": "Coming soon",
+          "slug": "coming-soon"
+        }
+      ]
+    },
+    {
+      "section": "Compilers",
+      "topics": [
+        {
+          "title": "Coming soon",
+          "slug": "coming-soon"
+        }
+      ]
+    },
+    {
+      "section": "Distributed Systems",
       "topics": [
         {
           "title": "Coming soon",

@@ -14,9 +14,9 @@
 
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
-        <Shortcut link="/diy-cs" text="Introduction" icon="play-icon"/>
-        <Shortcut link="/welcome" text="Welcome" icon="sliders-icon"/>
-        <Shortcut link="/week-one" text="Week one" icon="eye-icon"/>
+        <Shortcut link="/welcome-to-diy-cs" text="Welcome" icon="smile-icon"/>
+        <Shortcut link="/intro-to-cs" text="Learn" icon="book-icon"/>
+        <Shortcut link="/coming-soon" text="FAQs" icon="message-circle-icon"/>
       </nav>
     </div>
   </Layout>
