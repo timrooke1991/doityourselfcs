@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>
+    <h1 class="primary">
       {{ $page.doc.title }}
     </h1>
      <div class="markdown" v-html="$page.doc.content" />
@@ -36,6 +36,10 @@ export default {
 <style lang="scss" scoped>
 /deep/ > p {
   opacity: .8;
+}
+
+h1.primary {
+  color: $brandColor;
 }
 
 /deep/ > h2 {

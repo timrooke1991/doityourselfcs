@@ -4,8 +4,12 @@
       "section": "Introduction",
       "topics": [
         {
-          "title": "Getting started",
-          "slug": "getting-started"
+          "title": "DIY: CS",
+          "slug": "diy-cs"
+        },
+        {
+          "title": "Welcome",
+          "slug": "welcome"
         }
       ]
     },
@@ -13,26 +17,40 @@
       "section": "Intro to Computer Science",
       "topics": [
         {
-          "title": "Theme configuration",
-          "slug": "theme-configuration"
+          "title": "Intro",
+          "slug": "intro-to-cs"
         },
         {
-          "title": "Forestry CMS",
-          "slug": "forestry-cms"
-        }
+          "title": "Week 1",
+          "slug": "week-one"
+        },
       ]
     },
     {
-      "section": "Setup",
+      "section": "Programming",
       "topics": [
         {
-          "title": "Theme configuration",
-          "slug": "theme-configuration"
+          "title": "Coming soon",
+          "slug": "coming-soon"
         },
+      ]
+    },
+    {
+      "section": "Algorithms",
+      "topics": [
         {
-          "title": "Forestry CMS",
-          "slug": "forestry-cms"
-        }
+          "title": "Coming soon",
+          "slug": "coming-soon"
+        },
+      ]
+    },
+    {
+      "section": "Data Structures",
+      "topics": [
+        {
+          "title": "Coming soon",
+          "slug": "coming-soon"
+        },
       ]
     }
   ]

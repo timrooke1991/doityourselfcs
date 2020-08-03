@@ -4,7 +4,7 @@ date: 2020-08-03
 slug: intro-to-cs
 ---
 
-Welcome, world!
+## Welcome, world!
 
 If you’ve made it this far, it is probably safe to assume you’re interested in learning computer science.
 
