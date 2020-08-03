@@ -1,9 +1,7 @@
 <template>
   <Layout>
-    <h1 class="primary">
-      {{ $page.doc.title }}
-    </h1>
-     <div class="markdown" v-html="$page.doc.content" />
+    <h1 class="primary">{{ $page.doc.title }}</h1>
+    <div class="markdown" v-html="$page.doc.content"/>
   </Layout>
 </template>
 
@@ -25,21 +23,25 @@ export default {
     return {
       title: this.$page.doc.title,
       meta: [
-        { key: 'description', name: 'description', content: this.$page.doc.description }
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.doc.description
+        }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 
 <style lang="scss" scoped>
 /deep/ > p {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 h1.primary {
-  color: $brandColor;
+  color: $brandPrimary;
 }
 
 /deep/ > h2 {
@@ -52,8 +54,8 @@ h1.primary {
 }
 
 /deep/ > p > img {
-    max-width: 100%;
-  }
+  max-width: 100%;
+}
 
 .markdown {
   padding-bottom: 50vh;

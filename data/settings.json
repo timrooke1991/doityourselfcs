@@ -23,7 +23,7 @@
         {
           "title": "Week 1",
           "slug": "week-one"
-        },
+        }
       ]
     },
     {
@@ -32,7 +32,7 @@
         {
           "title": "Coming soon",
           "slug": "coming-soon"
-        },
+        }
       ]
     },
     {
@@ -41,7 +41,7 @@
         {
           "title": "Coming soon",
           "slug": "coming-soon"
-        },
+        }
       ]
     },
     {
@@ -50,7 +50,7 @@
         {
           "title": "Coming soon",
           "slug": "coming-soon"
-        },
+        }
       ]
     }
   ]
