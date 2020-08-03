@@ -1,6 +1,6 @@
 ---
 title: "Welcome to DIY: CS"
-date: 2020-08-03 07:42:34
+date: 2020-06-03 07:42:34
 slug: welcome-to-diy-cs
 ---
 

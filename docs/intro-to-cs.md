@@ -1,6 +1,6 @@
 ---
 title: Intro to CS
-date: 2020-08-03
+date: 2020-07-03 07:42:34
 slug: intro-to-cs
 ---
 
