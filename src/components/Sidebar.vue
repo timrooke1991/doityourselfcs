@@ -29,9 +29,7 @@ query Menu {
   menu: allMenu(order: ASC) {
     edges {
       node {
-        section {
-          section
-        }
+        section 
         topics {
           title
           slug
