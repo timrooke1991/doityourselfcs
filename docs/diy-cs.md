@@ -1,5 +1,5 @@
 ---
-title: DIY: CS
+title: "DIY: CS"
 date: 2020-08-03 07:42:34
 slug: diy-cs
 ---
