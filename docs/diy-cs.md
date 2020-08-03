@@ -4,23 +4,23 @@ date: 2020-08-03 07:42:34
 slug: diy-cs
 ---
 
-## What?
+### What?
 
 **DIY: CS** is a documentation of my effort to teach myself computer science. Partly for my own benefit and reference, but also to help other people who are hoping to do a similar thing.
 
 Beyond the blogs and opinion, most of the substance lies in video lectures and books published by others. DIY: CS can help join up the dots between topics to make learning smoother, shares solutions to the course projects and provides learnings from my own experience.
 
-## Why?
+### Why?
 
 Learning a broad topic like computer science on your own is tough. And while there are plenty of online resources, books and tutorials, it’s difficult to know how and where to start. Plenty of high-quality resources exist, but coordinating this content into something resembling a computer science degree program is a challenge when each set of lectures have assumptions about different knowledge, level and experience
 
 As a result, I set up this website to document my process and experiences navigating computer science. I hope it will piece together some of the amazing resources that exist, fill in a couple of knowledge gaps and pass on some of the wisdom having been through the process.
 
-## Who?
+### Who?
 
 This is best-suited for self-taught engineers or bootcamp grads, who don’t currently have a solid grounding in computer science. It assumes you know how to code in at least one programming language and while the first course CS:50 (from Harvard) arguably doesn’t require this prerequisite knowledge the courses that follow make this assumption.
 
-## How?
+### How?
 
 As mentioned, there is no shortage of content available to pursue a DIY Computer Science degree, so unsurprisingly much of this learning leverages these resources. Topics use video lectures, book-based learning and general online content (blogs, newsletters, tutorials). Having tried and failed to learn computer science of my own back in the past, I set out some requirements where possible for what I wanted from each topic of study:
 
