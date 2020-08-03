@@ -20,7 +20,6 @@
           </ul>
         </li>
       </ul>
-      <GitLink class="git"/>
     </nav>
   </aside>
 </template>
@@ -38,7 +37,7 @@ query Menu {
       }
     }
   }
-  docs: allDoc {
+  docs: allDoc(sortBy: "date") {
     edges {
       node {
         slug
@@ -53,12 +52,9 @@ query Menu {
 </static-query>
 
 <script>
-import GitLink from "~/components/GitLink.vue";
 import throttle from "lodash/throttle";
 export default {
-  components: {
-    GitLink
-  },
+  components: {},
   watch: {
     $route() {
       this.$store.commit("closeSidebar");
