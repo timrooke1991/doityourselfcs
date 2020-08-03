@@ -1,5 +1,5 @@
 ---
-title: Week on
+title: Week one
 date: 2020-08-03
 slug: week-one
 ---

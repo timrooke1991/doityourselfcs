@@ -5,3 +5,5 @@ slug: coming-soon
 ---
 
 I have not made it this far into the course yet.
+
+To be filled out...
