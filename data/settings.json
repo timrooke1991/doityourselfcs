@@ -10,6 +10,19 @@
       ]
     },
     {
+      "section": "Intro to Computer Science",
+      "topics": [
+        {
+          "title": "Theme configuration",
+          "slug": "theme-configuration"
+        },
+        {
+          "title": "Forestry CMS",
+          "slug": "forestry-cms"
+        }
+      ]
+    },
+    {
       "section": "Setup",
       "topics": [
         {
