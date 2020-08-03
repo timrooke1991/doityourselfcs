@@ -20,16 +20,14 @@
           </ul>
         </li>
       </ul>
+      <GitLink class="git"/>
     </nav>
   </aside>
 </template>
 
 <static-query>
 query Menu {
-  menu: allMenu( sort: {
-      fields: [frontmatter___date]
-      order: ASC
-    }) {
+  menu: allMenu(order:ASC) {
     edges {
       node {
         section
@@ -55,10 +53,12 @@ query Menu {
 </static-query>
 
 <script>
+import GitLink from "~/components/GitLink.vue";
 import throttle from "lodash/throttle";
-
 export default {
-  components: {},
+  components: {
+    GitLink
+  },
   watch: {
     $route() {
       this.$store.commit("closeSidebar");
@@ -84,12 +84,10 @@ export default {
         ".topic.active + ul .sub-topic"
       );
       let fromTop = window.scrollY;
-
       mainNavLinks.forEach(link => {
         let section = document.querySelector(link.hash);
         let allCurrent = document.querySelectorAll(".current"),
           i;
-
         if (section.offsetTop <= fromTop) {
           for (i = 0; i < allCurrent.length; ++i) {
             allCurrent[i].classList.remove("current");
@@ -125,11 +123,9 @@ export default {
   transform: translateX(-300px);
   border-right: 1px solid transparent;
   overflow: auto;
-
   @include respond-above(sm) {
     transform: translateX(0);
   }
-
   &--open {
     transform: translateX(0);
   }
@@ -138,41 +134,34 @@ export default {
     background: $sidebarBright;
     border-color: shade($sidebarBright, 10%);
   }
-
   .dark & {
     background: $sidebarDark;
     border-color: shade($sidebarDark, 40%);
   }
 }
-
 nav {
   position: relative;
   min-height: 100%;
   border: 1px solid transparent;
   padding-bottom: 40px;
 }
-
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
-
   a {
     text-decoration: none;
     color: inherit;
     padding: 5px 0;
     display: block;
-
     &.active {
       color: $brandPrimary;
     }
   }
 }
-
 .section {
   margin-bottom: 30px;
 }
-
 .section-title {
   text-transform: uppercase;
   font-size: 12px;
@@ -181,16 +170,13 @@ ul {
   letter-spacing: 0.15em;
   font-weight: 700;
 }
-
 .topic {
   font-weight: 700;
 }
-
 .sub-topic {
   font-size: 0.875rem;
   position: relative;
   opacity: 0.8;
-
   &::after {
     content: "";
     transition: opacity 0.15s ease-in-out;
@@ -204,19 +190,15 @@ ul {
     top: 13px;
     left: -15px;
   }
-
   &.current {
     &::after {
       opacity: 1;
     }
   }
 }
-
 .git {
   position: absolute;
   bottom: 0;
   left: 0;
 }
 </style>
-
-
