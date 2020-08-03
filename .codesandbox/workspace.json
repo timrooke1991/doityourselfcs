@@ -4,6 +4,14 @@
       "views": [
         {
           "id": "codesandbox.browser"
+        },
+        {
+          "id": "codesandbox.browser",
+          "options": {
+            "url": "/___explore",
+            "title": "GraphiQL"
+          },
+          "closeable": true
         }
       ]
     },

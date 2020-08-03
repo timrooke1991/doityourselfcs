@@ -2,6 +2,7 @@
   "sidebar": [
     {
       "section": "Introduction",
+      "index": 0,
       "topics": [
         {
           "title": "Welcome to DIY: CS",
@@ -11,6 +12,7 @@
     },
     {
       "section": "Intro to Computer Science",
+      "index": 1,
       "topics": [
         {
           "title": "Intro",
@@ -24,6 +26,7 @@
     },
     {
       "section": "Programming",
+      "index": 2,
       "topics": [
         {
           "title": "Coming soon",
@@ -33,6 +36,7 @@
     },
     {
       "section": "Algorithms",
+      "index": 3,
       "topics": [
         {
           "title": "Coming soon",
@@ -42,6 +46,7 @@
     },
     {
       "section": "Data Structures",
+      "index": 4,
       "topics": [
         {
           "title": "Coming soon",
@@ -51,6 +56,7 @@
     },
     {
       "section": "CS Maths",
+      "index": 5,
       "topics": [
         {
           "title": "Coming soon",
@@ -60,6 +66,7 @@
     },
     {
       "section": "Networking",
+      "index": 6,
       "topics": [
         {
           "title": "Coming soon",
@@ -69,6 +76,7 @@
     },
     {
       "section": "Cryptography",
+      "index": 7,
       "topics": [
         {
           "title": "Coming soon",
@@ -78,6 +86,7 @@
     },
     {
       "section": "Security",
+      "index": 8,
       "topics": [
         {
           "title": "Coming soon",
@@ -87,6 +96,7 @@
     },
     {
       "section": "Cloud Computing",
+      "index": 9,
       "topics": [
         {
           "title": "Coming soon",
@@ -96,6 +106,7 @@
     },
     {
       "section": "Operating Systems",
+      "index": 10,
       "topics": [
         {
           "title": "Coming soon",
@@ -105,6 +116,7 @@
     },
     {
       "section": "Databases",
+      "index": 11,
       "topics": [
         {
           "title": "Coming soon",
@@ -114,6 +126,7 @@
     },
     {
       "section": "Compilers",
+      "index": 12,
       "topics": [
         {
           "title": "Coming soon",
@@ -123,6 +136,7 @@
     },
     {
       "section": "Distributed Systems",
+      "index": 13,
       "topics": [
         {
           "title": "Coming soon",

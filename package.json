@@ -1,5 +1,5 @@
 {
-  "name": "jamdocs",
+  "name": "diy-cs",
   "private": true,
   "scripts": {
     "build": "gridsome build",
@@ -27,5 +27,7 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "style-resources-loader": "^1.2.1"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
