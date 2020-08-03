@@ -1,6 +1,6 @@
 ---
-title: Coming soon...
-date: 2021-09-30 11:42:34
+title: Coming soon
+date: 2020-12-12 23:42:34
 slug: coming-soon
 ---
 
