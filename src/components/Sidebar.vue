@@ -26,7 +26,10 @@
 
 <static-query>
 query Menu {
-  menu: allMenu(order:ASC) {
+  menu: allMenu( sort: {
+      fields: [frontmatter___date]
+      order: ASC
+    }) {
     edges {
       node {
         section
