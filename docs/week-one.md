@@ -4,10 +4,10 @@ date: 2020-08-03 07:42:34
 slug: week-one
 ---
 
+## Input/Output
+
 > **Context**
 > Before writing this, I had completed the week 0 lecture from Harvard’s CS50: Intro to Computer Science.
-
-## Input/Output
 
 A useful place to start is to understand what computers actually do. At their simplest, the core job performed by a computer is to simply take a set of instructions, execute the steps and return the result of this execution. The instructions, steps, directions that we give a computer is known as the **input**. The outcome of the processing, compilation, analysis, execution is what is known as the **output**. And that’s all a computer does! Takes a set of inputs, processes them and gives us an output. It’s extremely efficient at this job. The role of the computer programmer is to codify how the computer should process this input to give the expected output. So whether it’s the maths to add two numbers together, the analysis you viewing habits to produce some Netflix recommendations or an Instagram filter to make your photos look better - a person (or a group of people) have programed a computer to take these input, process them in a particular way, and produce an output … and hopefully your pictures look better for it!
 
@@ -105,4 +105,10 @@ My idea came from a game called ![Sprinter](https://www.gamedesign.jp/flash/spri
 
 ## Further Reading
 
-...
+- [Lecture notes - week 0](https://cs50.harvard.edu/x/2020/notes/0/)
+- [Binary representations in digital logic](https://www.geeksforgeeks.org/binary-representations-in-digital-logic/)
+- [Bits, bytes, building with binary](https://medium.com/basecs/bits-bytes-building-with-binary-13cb4289aafa)
+- [Khan Academy: Bits and Bytes](https://www.khanacademy.org/computing/ap-computer-science-principles/x2d2f703b37b450a3:digital-information/x2d2f703b37b450a3:bits-and-bytes/a/digital-data-introduction)
+- [Number system and base conversions](https://www.geeksforgeeks.org/number-system-and-base-conversions/)
+- [Conversion tables](https://www.prepressure.com/library/technology/ascii-binary-hex)
+- [Hex and other magical numbers](https://medium.com/basecs/hexs-and-other-magical-numbers-9785bc26b7ee)
