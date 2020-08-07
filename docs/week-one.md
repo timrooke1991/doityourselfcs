@@ -4,9 +4,9 @@ date: 2020-08-03 07:42:34
 slug: week-one
 ---
 
-## Input/Output
+## Input / Output
 
-> **Context**
+> **Context**<br/>
 > Before writing this, I had completed the week 0 lecture from Harvard’s CS50: Intro to Computer Science.
 
 A useful place to start is to understand what computers actually do. At their simplest, the core job performed by a computer is to simply take a set of instructions, execute the steps and return the result of this execution. The instructions, steps, directions that we give a computer is known as the **input**. The outcome of the processing, compilation, analysis, execution is what is known as the **output**. And that’s all a computer does! Takes a set of inputs, processes them and gives us an output. It’s extremely efficient at this job. The role of the computer programmer is to codify how the computer should process this input to give the expected output. So whether it’s the maths to add two numbers together, the analysis you viewing habits to produce some Netflix recommendations or an Instagram filter to make your photos look better - a person (or a group of people) have programed a computer to take these input, process them in a particular way, and produce an output … and hopefully your pictures look better for it!
@@ -82,7 +82,7 @@ We’ve looked at the role of a computer - processing an input into an output - 
 
 ## Project
 
-> **Context**
+> **Context**<br/>
 > Before writing this, I had completed the week 0 lecture from Harvard’s CS50: Intro to Computer Science.
 
 The second half of the lecture covers pseudocode and general programming concepts like variables, booleans, conditional statements and the basic building blocks of a coding language. I haven’t focused too much on this because, with a background of web development, this was fairly basic information (and I assume most of the readers of this post will be familiar with at least one programming language).
