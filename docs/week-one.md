@@ -99,7 +99,8 @@ The problem set for week one was to build your own game in Scratch, which must m
 - Your project must use at least one sound
 
 I must admit, I didn’t spend a massive amount of time on this project because I just wanted to get into the substance of the course. However, I did create a game which passes the requirements. If you have or intend to purchase a certification with the course, then completing this project is required.
-My idea came from a game called ![Sprinter](https://www.gamedesign.jp/flash/sprinter/sprinter.html), which was an old flash browser-based game. The game was simply a 100m race against the computer, which requires you to press the left and right arrow keys alternately as quickly as possible to increase your running speed. The catch was that if the arrow keys were not pressed alternately - because you lost your rhythm - you would go slower and would risk falling over. The game was simple, but highly addictive. This my effort to recreate it in Scratch.
+
+My idea came from a game called [Sprinter](https://www.gamedesign.jp/flash/sprinter/sprinter.html), which was an old flash browser-based game. The game was simply a 100m race against the computer, which requires you to press the left and right arrow keys alternately as quickly as possible to increase your running speed. The catch was that if the arrow keys were not pressed alternately - because you lost your rhythm - you would go slower and would risk falling over. The game was simple, but highly addictive. This my effort to recreate it in Scratch.
 
 <iframe src="https://scratch.mit.edu/projects/287370691/embed" allowtransparency="true" width="100%" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
