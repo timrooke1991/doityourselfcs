@@ -78,7 +78,23 @@ To do bigger numbers, we can go further… What would this equal?
 
 That’s right - 255! We can store up to 8 bits, which is known as a byte, so this means 255 is the maximum number we can make out of one byte. Computers use bits as the fundamental building block of their architecture. You may have heard references to bits such as 32-bit edition or 64-bit edition - this can mean computers will process 32 bits or 4 bytes at a time. This simply refers to the speed at which computers or programs can process bits or data (stored as bits). A computer takes an input, convert it into bits and process it to give an output.
 
-We’ve looked at the role of a computer - processing an input into an output - and how using binary it achieves this goal. I suppose a lingering question is why? Why does it use binary to process an input into an output? Fundamentally, a computer internally is just made of millions of switches (or transistors) that can store electricity. Electricity only has two states: on or off. As a result, this lends itself perfectly to binary because we have seen binary has only two states: `0` and `1`. Therefore, a `0` could represent an off state and `1` can represent an on state. And because we are working with binary, we can be confident that there will not be any other options or outputs. This is a major benefit of binary.
+We’ve looked at the role of a computer - processing an input into an output - and how using binary it achieves this goal. I suppose a lingering question is why? Why does it use binary to process an input into an output? Fundamentally, a computer internally is just made of millions of switches (or transistors) that can store electricity. Electricity only has two states: on or off. As a result, this lends itself perfectly to binary because we have seen binary has only two states: `0` and `1`. Therefore, a `0` could represent an off state and `1` can represent an on state. And because we are working with binary, we can be confident that there will not be any other options or outputs. This is a major benefit of the binary number system.
+
+## ASCII / Unicode
+
+Binary and bits as the fundamental building block of computer architecture will also help us understand some other important concepts in computer science. For examples, letters or text. Binary - with the zeros and ones - can be converted to decimal numbers like we have seen, but what about letters? 
+
+American Standard Code for Information Interchange or ASCII was designed to solve this problem. ASCII is an internet standard for character encoding. It is an agreed upon standard for how to map numbers to letters. The letter “A”, for example, is the number 65, and “B” is 66, and so on. For example, let’s look at how DIY CS converts to ASCII and then Binary.
+
+```
+DIY CS 
+068 073 089 032 067 083 // ASCII
+01000100 01001001 01011001 00100000 01000011 01010011 // Binary
+```
+
+The mapping also includes punctuation and other symbols. ASCII is a 7-bit code. We know a bit can be only zero or one - so, a 7-bit encoding means that we have 128 different combinations. Therefore, ASCII supports encoding for 128 characters. If you have ever opened an email attached or a document, and it has corrupted characters or funny symbols - this is probably because the original document saved with ASCII encoding and contained characters that are not included within the ASCII mapping. As other characters and symbols, and even emojis, have become part of regular language, ASCII was less suitable because it didn’t support these additional characters. As a result, Unicode was introduced. Unicode supports 32, 16, and 8-bit encodings, which at its maximum means it can accommodate a huge number of characters. This is beneficial; Unicode can support English characters, but also Arabic. Chinese, Japanese characters as well. In contrast, ASCII is limited to English characters. However, these options come at a cost as resulting files and documents will be bigger in size, whereas a benefit of ASCII or a lower bit encoding is that the files will be much smaller.
+
+This process of encoding and mapping is fundamentally the same for other forms of data such as pictures, colours and videos. These data formats - which use different encoding standards - are encoded in a format so that they can converted into zeros and ones.
 
 ## Project
 
